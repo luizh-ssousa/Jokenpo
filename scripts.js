@@ -18,7 +18,7 @@ const playTheGame = (human, ai) => {
 
     if (human === ai) {
         result.innerHTML = "Deu empate!"
-    } else if (human === 'paper' && ai === 'rock') {
+    } else if ((human === 'paper' && ai === 'rock') || (human === 'rock' && ai === 'scissors') || (human === 'scissors' && ai === 'paper')) {
         result.innerHTML = "Você ganhou!"
     } else {
         result.innerHTML = "Você perdeu para a IA"
