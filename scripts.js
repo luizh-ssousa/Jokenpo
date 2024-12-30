@@ -22,7 +22,10 @@ const playTheGame = (human, ai) => {
 
     if (human === ai) {
         result.innerHTML = "Deu empate!"
-    } else if ((human === 'paper' && ai === 'rock') || (human === 'rock' && ai === 'scissors') || (human === 'scissors' && ai === 'paper')) {
+    } else if (
+        (human === 'paper' && ai === 'rock') ||
+        (human === 'rock' && ai === 'scissors') ||
+        (human === 'scissors' && ai === 'paper')) {
         humanScoreNumber++
         humanScore.innerHTML = humanScoreNumber
         result.innerHTML = "Você ganhou!"
