@@ -33,4 +33,5 @@
    <h2>Contribuições</h2>
    <p>Sinta-se à vontade para contribuir com melhorias ou correções. Para isso, você pode abrir uma issue ou enviar um pull request.</p>
 
+<img src="https://raw.githubusercontent.com/luizh-ssousa/Jokenpo/50f98500c425b24b9c4be898ddda694fde9924ed/assets/capturajokenpo.png"/>
   
