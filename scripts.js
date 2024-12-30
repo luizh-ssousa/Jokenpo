@@ -1,14 +1,18 @@
 
 
 const playHuman = (humanChoice) => {
-    console.log(humanChoice)
 
-    console.log(playAI())
+    playTheGame(humanChoice, playAI())
 }
 
 const playAI = () => {
     const choices = ['rock', 'paper', 'scissors']
-    const randomNumber = Math.random() * 3
+    const randomNumber = Math.floor(Math.random() * 3)
 
-    return choices [1]
+    return choices [randomNumber]
+}
+
+const playTheGame = (human, ai) => {
+    
+    console.log ('Humano: ' + human + " IA: " + ai)
 }
